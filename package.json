@@ -1,6 +1,6 @@
 {
   "name": "rn-development-helper",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A easy to use Helper Component for developing applications and sharing internal Data with testers.",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -24,19 +24,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/patrickbruckner/developmenthelper.git"
+    "url": "git+https://github.com/patrickbruckner/RNDevelopmentHelper.git"
   },
   "author": "Patrick Bruckner (https://patrickbruckner.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/patrickbruckner/developmenthelper/issues"
+    "url": "https://github.com/patrickbruckner/RNDevelopmentHelper/issues"
   },
-  "homepage": "https://github.com/patrickbruckner/developmenthelper.git",
+  "homepage": "https://github.com/patrickbruckner/RNDevelopmentHelper.git",
   "scripts": {
     "typescript": "tsc",
-    "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "build": "npm run typescript",
-    "release": "rm -rf lib && npm run build && npm publish"
+    "release": "npm run build && npm publish"
   },
   "peerDependencies": {
     "@types/react": "*",
