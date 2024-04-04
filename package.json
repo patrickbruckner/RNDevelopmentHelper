@@ -1,0 +1,66 @@
+{
+  "name": "rn-development-helper",
+  "version": "0.0.3",
+  "description": "A easy to use Helper Component for developing applications and sharing internal Data with testers.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "src/index.d.ts",
+  "react-native": "src/index.ts",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "development-helper",
+    "development helper",
+    "development",
+    "helper",
+    "react-native",
+    "application",
+    "development"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickbruckner/developmenthelper.git"
+  },
+  "author": "Patrick Bruckner (https://patrickbruckner.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrickbruckner/developmenthelper/issues"
+  },
+  "homepage": "https://github.com/patrickbruckner/developmenthelper.git",
+  "scripts": {
+    "typescript": "tsc",
+    "lint": "eslint \"**/*.{js,ts,tsx}\"",
+    "build": "npm run typescript",
+    "release": "rm -rf lib && npm run build && npm publish"
+  },
+  "peerDependencies": {
+    "@types/react": "*",
+    "@types/react-native": "*",
+    "react": "*",
+    "react-native": "*",
+    "react-native-gesture-handler": ">=1.10.1"
+  },
+  "peerDependenciesMeta": {
+    "@types/react-native": {
+      "optional": true
+    },
+    "@types/react": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.73",
+    "react": "^18.2.0",
+    "react-native": "^0.73.6",
+    "react-native-gesture-handler": "^1.10.3",
+    "typescript": "^4.9.5"
+  }
+}
